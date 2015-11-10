@@ -5,7 +5,7 @@
 ## Invocation
 
 ```bash
-python dd.py inspire-good.xml | json_pp > inspire-good-result.json
+python inspire-metadata-validate.py inspire-good.xml | json_pp > inspire-good-result.json
 
-python dd.py inspire-bad.xml | json_pp > inspire-bad-result.json
+python inspire-metadata-validate.py inspire-bad.xml | json_pp > inspire-bad-result.json
 ```
