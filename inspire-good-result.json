@@ -1,0 +1,223 @@
+{
+   "nil" : false,
+   "globalScope" : true,
+   "typeSubstituted" : false,
+   "scope" : "javax.xml.bind.JAXBElement$GlobalScope",
+   "name" : "{http://inspire.ec.europa.eu/schemas/geoportal/1.0}Resource",
+   "value" : {
+      "AuditRecord" : {
+         "LastUpdateDate" : 1447197719104,
+         "CreationDate" : 1447197719053
+      },
+      "SourceMetadataLocator" : {
+         "createdBy" : null,
+         "functionCodeList" : null,
+         "URL" : "../../downloaded.xml",
+         "originalEncodingReference" : null,
+         "completenessIndicator" : null,
+         "MediaType" : [
+            "APPLICATION_VND_ISO_19139_XML"
+         ],
+         "functionCode" : null,
+         "lastUpdateDate" : null,
+         "expectedResourceLocatorProtocol" : null,
+         "creationDate" : null,
+         "childHasErrors" : null,
+         "lastUpdatedBy" : null,
+         "LinkDescription" : [],
+         "remoteIdentifier" : "0f5b2fe2-eec2-4f46-89a6-1a7b390735b8"
+      },
+      "CompletenessIndicator" : 100,
+      "GeoportalErrorCode" : [],
+      "ValidationEngineVersion" : "hudson-INSPIREWebServices-1210",
+      "processingComplete" : null,
+      "GeoportalWarningCode" : [],
+      "GeoportalMetadataLocator" : {
+         "lastUpdatedBy" : null,
+         "LinkDescription" : [
+            {
+               "metadataLanguage" : "GRE",
+               "value" : "Εθνικό Δίκτυο Παρακολούθησης της κατάστασης των υδάτων – Σταθμοί στις λίμνες (Ειδική Γραμματεία Υδάτων)"
+            }
+         ],
+         "remoteIdentifier" : null,
+         "creationDate" : null,
+         "expectedResourceLocatorProtocol" : null,
+         "childHasErrors" : null,
+         "MediaType" : [
+            "APPLICATION_VND_EU_EUROPA_EC_INSPIRE_GEOPORTAL_RESOURCE_DATASET_XML"
+         ],
+         "lastUpdateDate" : null,
+         "FileName" : "inspire.geoportal.resource.dataset.xml",
+         "functionCode" : null,
+         "URL" : "/sandbox/INSPIRE-d717e453-8801-11e5-a300-a0369f4c5bc0_20151111-002158/datasets/1",
+         "functionCodeList" : null,
+         "createdBy" : null,
+         "completenessIndicator" : null,
+         "originalEncodingReference" : null
+      },
+      "OriginalRepresentation" : "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<gmd:MD_Metadata xmlns:gmd=\"http://www.isotc211.org/2005/gmd\"\n                 xmlns:gco=\"http://www.isotc211.org/2005/gco\"\n                 xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n                 xmlns:gml=\"http://www.opengis.net/gml\"\n                 xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n                 xsi:schemaLocation=\"http://www.isotc211.org/2005/gmd http://schemas.opengis.net/iso/19139/20060504/gmd/gmd.xsd\">\n  <gmd:fileIdentifier>\n      <gco:CharacterString>0f5b2fe2-eec2-4f46-89a6-1a7b390735b8</gco:CharacterString>\n  </gmd:fileIdentifier>\n  <gmd:language>\n      <gmd:LanguageCode codeList=\"http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#LanguageCode\"\n                        codeListValue=\"gre\">gre</gmd:LanguageCode>\n  </gmd:language>\n  <gmd:characterSet>\n      <gmd:MD_CharacterSetCode codeSpace=\"ISOTC211/19115\"\n                               codeListValue=\"MD_CharacterSetCode_utf8\"\n                               codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode\">MD_CharacterSetCode_utf8</gmd:MD_CharacterSetCode>\n  </gmd:characterSet>\n  <gmd:hierarchyLevel>\n      <gmd:MD_ScopeCode codeList=\"http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode\"\n                        codeListValue=\"dataset\">dataset</gmd:MD_ScopeCode>\n  </gmd:hierarchyLevel>\n  <gmd:contact>\n      <gmd:CI_ResponsibleParty>\n         <gmd:organisationName>\n            <gco:CharacterString>Ειδική Γραμματεία Υδάτων</gco:CharacterString>\n         </gmd:organisationName>\n         <gmd:contactInfo>\n            <gmd:CI_Contact>\n               <gmd:address>\n                  <gmd:CI_Address>\n                     <gmd:electronicMailAddress>\n                        <gco:CharacterString>info@geodata.gov.gr</gco:CharacterString>\n                     </gmd:electronicMailAddress>\n                  </gmd:CI_Address>\n               </gmd:address>\n            </gmd:CI_Contact>\n         </gmd:contactInfo>\n         <gmd:role>\n            <gmd:CI_RoleCode codeList=\"http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode\"\n                             codeListValue=\"pointOfContact\">pointOfContact</gmd:CI_RoleCode>\n         </gmd:role>\n      </gmd:CI_ResponsibleParty>\n  </gmd:contact>\n  <gmd:dateStamp>\n      <gco:Date>2015-04-20</gco:Date>\n  </gmd:dateStamp>\n  <gmd:metadataStandardName>\n      <gco:CharacterString>ISO19115</gco:CharacterString>\n  </gmd:metadataStandardName>\n  <gmd:metadataStandardVersion>\n      <gco:CharacterString>2003/Cor.1:2006</gco:CharacterString>\n  </gmd:metadataStandardVersion>\n  <gmd:referenceSystemInfo>\n      <gmd:MD_ReferenceSystem>\n         <gmd:referenceSystemIdentifier>\n            <gmd:RS_Identifier>\n               <gmd:code>\n                  <gco:CharacterString>http://www.opengis.net/def/crs/EPSG/0/4936</gco:CharacterString>\n               </gmd:code>\n            </gmd:RS_Identifier>\n         </gmd:referenceSystemIdentifier>\n      </gmd:MD_ReferenceSystem>\n  </gmd:referenceSystemInfo>\n  <gmd:identificationInfo>\n      <gmd:MD_DataIdentification>\n         <gmd:citation>\n            <gmd:CI_Citation>\n               <gmd:title>\n                  <gco:CharacterString>Εθνικό Δίκτυο Παρακολούθησης της κατάστασης των υδάτων – Σταθμοί στις λίμνες</gco:CharacterString>\n               </gmd:title>\n               <gmd:date>\n                  <gmd:CI_Date>\n                     <gmd:date>\n                        <gco:Date>2012-02-20</gco:Date>\n                     </gmd:date>\n                     <gmd:dateType>\n                        <gmd:CI_DateTypeCode codeList=\"http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode\"\n                                             codeListValue=\"publication\">publication</gmd:CI_DateTypeCode>\n                     </gmd:dateType>\n                  </gmd:CI_Date>\n               </gmd:date>\n               <gmd:date>\n                  <gmd:CI_Date>\n                     <gmd:date>\n                        <gco:Date>2012-02-20</gco:Date>\n                     </gmd:date>\n                     <gmd:dateType>\n                        <gmd:CI_DateTypeCode codeList=\"http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode\"\n                                             codeListValue=\"creation\">creation</gmd:CI_DateTypeCode>\n                     </gmd:dateType>\n                  </gmd:CI_Date>\n               </gmd:date>\n               <gmd:identifier>\n                  <gmd:RS_Identifier>\n                     <gmd:code>\n                        <gco:CharacterString>0f5b2fe2-eec2-4f46-89a6-1a7b390735b8</gco:CharacterString>\n                     </gmd:code>\n                     <gmd:codeSpace>\n                        <gco:CharacterString>http://geodata.gov.gr</gco:CharacterString>\n                     </gmd:codeSpace>\n                  </gmd:RS_Identifier>\n               </gmd:identifier>\n            </gmd:CI_Citation>\n         </gmd:citation>\n         <gmd:abstract>\n            <gco:CharacterString>Περιέχονται οι θέσεις των σταθμών παρακολούθησης της ποιοτικής και ποσοτικής κατάστασης των λιμνών, όπως καθορίστηκαν με την ΚΥΑ 140384/2011 «Ορισμός Εθνικού Δικτύου Παρακολούθησης της ποιότητας και της ποσότητας των υδάτων με καθορισμό των θέσεων (σταθμών) μετρήσεων και των φορέων που υποχρεούνται στην λειτουργία τους, κατά το Άρθρο 4, παράγραφος 4 του Ν. 3199/2003 (Α΄ 280)» (ΦΕΚ 2017/Β/9-9-2011).</gco:CharacterString>\n         </gmd:abstract>\n         <gmd:pointOfContact>\n            <gmd:CI_ResponsibleParty>\n               <gmd:organisationName>\n                  <gco:CharacterString>Ειδική Γραμματεία Υδάτων</gco:CharacterString>\n               </gmd:organisationName>\n               <gmd:contactInfo>\n                  <gmd:CI_Contact>\n                     <gmd:address>\n                        <gmd:CI_Address>\n                           <gmd:electronicMailAddress>\n                              <gco:CharacterString>info@geodata.gov.gr</gco:CharacterString>\n                           </gmd:electronicMailAddress>\n                        </gmd:CI_Address>\n                     </gmd:address>\n                  </gmd:CI_Contact>\n               </gmd:contactInfo>\n               <gmd:role>\n                  <gmd:CI_RoleCode codeList=\"http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode\"\n                                   codeListValue=\"resourceProvider\">resourceProvider</gmd:CI_RoleCode>\n               </gmd:role>\n            </gmd:CI_ResponsibleParty>\n         </gmd:pointOfContact>\n         <gmd:descriptiveKeywords>\n            <gmd:MD_Keywords>\n               <gmd:keyword>\n                  <gco:CharacterString>Environmental monitoring facilities</gco:CharacterString>\n               </gmd:keyword>\n               <gmd:thesaurusName>\n                  <gmd:CI_Citation>\n                     <gmd:title>\n                        <gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>\n                     </gmd:title>\n                     <gmd:date>\n                        <gmd:CI_Date>\n                           <gmd:date>\n                              <gco:Date>2012-02-20</gco:Date>\n                           </gmd:date>\n                           <gmd:dateType>\n                              <gmd:CI_DateTypeCode codeList=\"http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode\"\n                                                   codeListValue=\"publication\">publication</gmd:CI_DateTypeCode>\n                           </gmd:dateType>\n                        </gmd:CI_Date>\n                     </gmd:date>\n                  </gmd:CI_Citation>\n               </gmd:thesaurusName>\n            </gmd:MD_Keywords>\n         </gmd:descriptiveKeywords>\n         <gmd:descriptiveKeywords>\n            <gmd:MD_Keywords>\n               <gmd:keyword>\n                  <gco:CharacterString>λίμνες</gco:CharacterString>\n               </gmd:keyword>\n            </gmd:MD_Keywords>\n         </gmd:descriptiveKeywords>\n         <gmd:descriptiveKeywords>\n            <gmd:MD_Keywords>\n               <gmd:keyword>\n                  <gco:CharacterString>υδρογραφία</gco:CharacterString>\n               </gmd:keyword>\n            </gmd:MD_Keywords>\n         </gmd:descriptiveKeywords>\n         <gmd:descriptiveKeywords>\n            <gmd:MD_Keywords>\n               <gmd:keyword>\n                  <gco:CharacterString>σταθμοί παρακολούθησης</gco:CharacterString>\n               </gmd:keyword>\n            </gmd:MD_Keywords>\n         </gmd:descriptiveKeywords>\n         <gmd:resourceConstraints>\n            <gmd:MD_Constraints>\n               <gmd:useLimitation>\n                  <gco:CharacterString>Creative Commons Αναφορά Προέλευσης (CC BY v.3.0)</gco:CharacterString>\n               </gmd:useLimitation>\n            </gmd:MD_Constraints>\n         </gmd:resourceConstraints>\n         <gmd:resourceConstraints>\n            <gmd:MD_LegalConstraints>\n               <gmd:accessConstraints>\n                  <gmd:MD_RestrictionCode codeList=\"http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode\"\n                                          codeListValue=\"otherRestrictions\">otherRestrictions</gmd:MD_RestrictionCode>\n               </gmd:accessConstraints>\n               <gmd:otherConstraints>\n                  <gco:CharacterString>no limitation</gco:CharacterString>\n               </gmd:otherConstraints>\n            </gmd:MD_LegalConstraints>\n         </gmd:resourceConstraints>\n         <gmd:language>\n            <gmd:LanguageCode codeList=\"http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#LanguageCode\"\n                              codeListValue=\"gre\">gre</gmd:LanguageCode>\n         </gmd:language>\n         <gmd:topicCategory>\n            <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>\n         </gmd:topicCategory>\n         <gmd:extent>\n            <gmd:EX_Extent>\n               <gmd:geographicElement>\n                  <gmd:EX_GeographicBoundingBox>\n                     <gmd:westBoundLongitude>\n                        <gco:Decimal>19.221163</gco:Decimal>\n                     </gmd:westBoundLongitude>\n                     <gmd:eastBoundLongitude>\n                        <gco:Decimal>30.116704</gco:Decimal>\n                     </gmd:eastBoundLongitude>\n                     <gmd:southBoundLatitude>\n                        <gco:Decimal>34.655598</gco:Decimal>\n                     </gmd:southBoundLatitude>\n                     <gmd:northBoundLatitude>\n                        <gco:Decimal>41.769278</gco:Decimal>\n                     </gmd:northBoundLatitude>\n                  </gmd:EX_GeographicBoundingBox>\n               </gmd:geographicElement>\n            </gmd:EX_Extent>\n         </gmd:extent>\n      </gmd:MD_DataIdentification>\n  </gmd:identificationInfo>\n  <gmd:distributionInfo>\n      <gmd:MD_Distribution>\n         <gmd:distributionFormat>\n            <gmd:MD_Format>\n               <gmd:name>\n                  <gco:CharacterString>unknown</gco:CharacterString>\n               </gmd:name>\n               <gmd:version>\n                  <gco:CharacterString>unknown</gco:CharacterString>\n               </gmd:version>\n            </gmd:MD_Format>\n         </gmd:distributionFormat>\n         <gmd:transferOptions>\n            <gmd:MD_DigitalTransferOptions>\n               <gmd:onLine>\n                  <gmd:CI_OnlineResource>\n                     <gmd:linkage>\n                        <gmd:URL>http://geodata.gov.gr</gmd:URL>\n                     </gmd:linkage>\n                  </gmd:CI_OnlineResource>\n               </gmd:onLine>\n            </gmd:MD_DigitalTransferOptions>\n         </gmd:transferOptions>\n      </gmd:MD_Distribution>\n  </gmd:distributionInfo>\n  <gmd:dataQualityInfo>\n      <gmd:DQ_DataQuality>\n         <gmd:scope>\n            <gmd:DQ_Scope>\n               <gmd:level>\n                  <gmd:MD_ScopeCode codeListValue=\"dataset\"\n                                    codeList=\"http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode\">dataset</gmd:MD_ScopeCode>\n               </gmd:level>\n            </gmd:DQ_Scope>\n         </gmd:scope>\n         <gmd:report>\n            <gmd:DQ_DomainConsistency xsi:type=\"gmd:DQ_DomainConsistency_Type\">\n               <gmd:result>\n                  <gmd:DQ_ConformanceResult xsi:type=\"gmd:DQ_ConformanceResult_Type\">\n                     <gmd:specification>\n                        <gmd:CI_Citation>\n                           <gmd:title>\n                              <gco:CharacterString>Κανονισμός (ΕΕ) αριθ. 1089/2010 της Επιτροπής της 23ης Νοεμβρίου 2010 σχετικά με την εφαρμογή της οδηγίας 2007/2/ΕΚ του Ευρωπαϊκού Κοινοβουλίου και του Συμβουλίου όσον αφορά τη διαλειτουργικότητα των συνόλων και των υπηρεσιών χωρικών δεδομένων</gco:CharacterString>\n                           </gmd:title>\n                           <gmd:date>\n                              <gmd:CI_Date>\n                                 <gmd:date>\n                                    <gco:Date>2010-12-08</gco:Date>\n                                 </gmd:date>\n                                 <gmd:dateType>\n                                    <gmd:CI_DateTypeCode codeList=\"http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode\"\n                                                         codeListValue=\"publication\">publication</gmd:CI_DateTypeCode>\n                                 </gmd:dateType>\n                              </gmd:CI_Date>\n                           </gmd:date>\n                        </gmd:CI_Citation>\n                     </gmd:specification>\n                     <gmd:explanation>\n                        <gco:CharacterString>See the referenced specification</gco:CharacterString>\n                     </gmd:explanation>\n                     <gmd:pass gco:nilReason=\"template\"/>\n                  </gmd:DQ_ConformanceResult>\n               </gmd:result>\n            </gmd:DQ_DomainConsistency>\n         </gmd:report>\n         <gmd:lineage>\n            <gmd:LI_Lineage>\n               <gmd:statement>\n                  <gco:CharacterString>Ειδική Γραμματεία Υδάτων</gco:CharacterString>\n               </gmd:statement>\n            </gmd:LI_Lineage>\n         </gmd:lineage>\n      </gmd:DQ_DataQuality>\n  </gmd:dataQualityInfo>\n</gmd:MD_Metadata>\n",
+      "SpatialDataSetResource" : {
+         "ResourceLocator" : [
+            {
+               "lastUpdatedBy" : null,
+               "remoteIdentifier" : null,
+               "creationDate" : null,
+               "expectedResourceLocatorProtocol" : null,
+               "childHasErrors" : null,
+               "lastUpdateDate" : null,
+               "functionCode" : null,
+               "URL" : "http://geodata.gov.gr",
+               "functionCodeList" : null,
+               "createdBy" : null,
+               "originalEncodingReference" : "GMD_TRANSFER_OPTIONS",
+               "completenessIndicator" : null
+            }
+         ],
+         "CoordinateReferenceSystem" : [
+            {
+               "UniqueResourceIdentifier" : {
+                  "Code" : "http://www.opengis.net/def/crs/EPSG/0/4936",
+                  "metadataURL" : null
+               }
+            }
+         ],
+         "GeographicBoundingBox" : [
+            {
+               "georssLine" : null,
+               "South" : "34.655598",
+               "georssPolygon" : null,
+               "West" : "19.221163",
+               "North" : "41.769278",
+               "georssPoint" : null,
+               "georssCircle" : null,
+               "georssBox" : null,
+               "East" : "30.116704"
+            }
+         ],
+         "sourceMetadataUrl" : null,
+         "MetadataLanguage" : "GRE",
+         "ResourceTitle" : "Εθνικό Δίκτυο Παρακολούθησης της κατάστασης των υδάτων – Σταθμοί στις λίμνες",
+         "ResourceLanguage" : [
+            "GRE"
+         ],
+         "UniqueResourceIdentifier" : [
+            {
+               "Namespace" : "http://geodata.gov.gr",
+               "Code" : "0f5b2fe2-eec2-4f46-89a6-1a7b390735b8",
+               "metadataURL" : null
+            }
+         ],
+         "Lineage" : {
+            "value" : "Ειδική Γραμματεία Υδάτων",
+            "locator" : null
+         },
+         "MetadataDate" : "2015-04-20",
+         "lang" : null,
+         "ResourceType" : "DATASET",
+         "ConditionsForAccessAndUse" : [
+            {
+               "locator" : null,
+               "value" : "Creative Commons Αναφορά Προέλευσης (CC BY v.3.0)"
+            }
+         ],
+         "MetadataPointOfContact" : [
+            {
+               "EmailAddress" : "info@geodata.gov.gr",
+               "OrganisationName" : "Ειδική Γραμματεία Υδάτων"
+            }
+         ],
+         "ResponsibleOrganisation" : [
+            {
+               "ResponsiblePartyRole" : "RESOURCE_PROVIDER",
+               "ResponsibleParty" : {
+                  "OrganisationName" : "Ειδική Γραμματεία Υδάτων",
+                  "EmailAddress" : "info@geodata.gov.gr"
+               }
+            }
+         ],
+         "LimitationsOnPublicAccess" : [
+            {
+               "locator" : null,
+               "value" : "no limitation"
+            }
+         ],
+         "Conformity" : [
+            {
+               "Specification" : {
+                  "Title" : "Κανονισμός (ΕΕ) αριθ. 1089/2010 της Επιτροπής της 23ης Νοεμβρίου 2010 σχετικά με την εφαρμογή της οδηγίας 2007/2/ΕΚ του Ευρωπαϊκού Κοινοβουλίου και του Συμβουλίου όσον αφορά τη διαλειτουργικότητα των συνόλων και των υπηρεσιών χωρικών δεδομένων",
+                  "DateOfLastRevision" : [],
+                  "DateOfPublication" : [
+                     "2010-12-08"
+                  ]
+               },
+               "Degree" : "NOT_EVALUATED"
+            }
+         ],
+         "MandatoryKeyword" : [
+            {
+               "OriginatingControlledVocabulary" : {
+                  "Title" : "GEMET - INSPIRE themes",
+                  "DateOfPublication" : [
+                     "2008-06-01"
+                  ]
+               },
+               "KeywordValue" : "Environmental monitoring facilities",
+               "KeywordLocator" : {
+                  "childHasErrors" : null,
+                  "creationDate" : null,
+                  "expectedResourceLocatorProtocol" : null,
+                  "remoteIdentifier" : null,
+                  "lastUpdatedBy" : null,
+                  "LinkDescription" : [
+                     {
+                        "metadataLanguage" : "ENG",
+                        "value" : "ENVIRONMENTAL_MONITORING_FACILITIES"
+                     }
+                  ],
+                  "completenessIndicator" : null,
+                  "originalEncodingReference" : null,
+                  "URL" : "#",
+                  "functionCodeList" : null,
+                  "createdBy" : null,
+                  "lastUpdateDate" : null,
+                  "functionCode" : null
+               }
+            }
+         ],
+         "remoteIdentifier" : "0f5b2fe2-eec2-4f46-89a6-1a7b390735b8",
+         "ResourceAbstract" : {
+            "locator" : null,
+            "value" : "Περιέχονται οι θέσεις των σταθμών παρακολούθησης της ποιοτικής και ποσοτικής κατάστασης των λιμνών, όπως καθορίστηκαν με την ΚΥΑ 140384/2011 «Ορισμός Εθνικού Δικτύου Παρακολούθησης της ποιότητας και της ποσότητας των υδάτων με καθορισμό των θέσεων (σταθμών) μετρήσεων και των φορέων που υποχρεούνται στην λειτουργία τους, κατά το Άρθρο 4, παράγραφος 4 του Ν. 3199/2003 (Α΄ 280)» (ΦΕΚ 2017/Β/9-9-2011)."
+         },
+         "Keyword" : [
+            {
+               "KeywordValue" : "λίμνες"
+            },
+            {
+               "KeywordValue" : "υδρογραφία"
+            },
+            {
+               "KeywordValue" : "σταθμοί παρακολούθησης"
+            }
+         ],
+         "TemporalReference" : [
+            {
+               "DateOfCreation" : "2012-02-20",
+               "TemporalExtent" : []
+            },
+            {
+               "DateOfPublication" : [
+                  "2012-02-20"
+               ],
+               "TemporalExtent" : []
+            }
+         ],
+         "SpatialResolution" : [],
+         "TopicCategory" : [
+            "ENVIRONMENT"
+         ]
+      }
+   },
+   "declaredType" : "eu.europa.ec.inspire.schemas.geoportal._1.GeoportalResource"
+}

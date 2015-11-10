@@ -1,0 +1,299 @@
+{
+   "declaredType" : "eu.europa.ec.inspire.schemas.geoportal._1.GeoportalResource",
+   "typeSubstituted" : false,
+   "name" : "{http://inspire.ec.europa.eu/schemas/geoportal/1.0}Resource",
+   "globalScope" : true,
+   "value" : {
+      "ParentResourceMetadataLocator" : {
+         "childHasErrors" : null,
+         "creationDate" : null,
+         "expectedResourceLocatorProtocol" : null,
+         "lastUpdatedBy" : null,
+         "remoteIdentifier" : null,
+         "lastUpdateDate" : null,
+         "completenessIndicator" : null,
+         "originalEncodingReference" : null,
+         "LinkDescription" : [],
+         "functionCodeList" : null,
+         "functionCode" : null,
+         "URL" : "../../..",
+         "MediaType" : [
+            "APPLICATION_VND_EU_EUROPA_EC_INSPIRE_RESOURCE_XML"
+         ],
+         "createdBy" : null
+      },
+      "ResourceReportResource" : {
+         "SourceValidationErrors" : {
+            "ValidationSchema" : [
+               {
+                  "Specification" : {
+                     "Title" : "19139 XSchemas TS RC (2006 May 4)",
+                     "DateOfPublication" : [
+                        "2006-05-04"
+                     ],
+                     "ResourceLocator" : [
+                        {
+                           "lastUpdatedBy" : null,
+                           "expectedResourceLocatorProtocol" : null,
+                           "childHasErrors" : null,
+                           "creationDate" : null,
+                           "remoteIdentifier" : null,
+                           "originalEncodingReference" : null,
+                           "functionCodeList" : null,
+                           "completenessIndicator" : null,
+                           "lastUpdateDate" : null,
+                           "createdBy" : null,
+                           "MediaType" : [
+                              "APPLICATION_XML"
+                           ],
+                           "functionCode" : null,
+                           "URL" : "http://schemas.opengis.net/iso/19139/20060504/gmd/gmd.xsd"
+                        }
+                     ]
+                  }
+               }
+            ],
+            "SourceOfRequirement" : [
+               {
+                  "Specification" : {
+                     "Title" : "INSPIRE Metadata Implementing Rules: Technical Guidelines based on EN ISO 19115 and EN ISO 19119 (Version 1.2)",
+                     "URI" : [
+                        "MD_IR_and_ISO_v1_2_20100616"
+                     ],
+                     "ResourceLocator" : [
+                        {
+                           "lastUpdatedBy" : null,
+                           "expectedResourceLocatorProtocol" : null,
+                           "childHasErrors" : null,
+                           "creationDate" : null,
+                           "remoteIdentifier" : null,
+                           "originalEncodingReference" : null,
+                           "functionCodeList" : null,
+                           "completenessIndicator" : null,
+                           "lastUpdateDate" : null,
+                           "createdBy" : null,
+                           "MediaType" : [
+                              "APPLICATION_PDF"
+                           ],
+                           "URL" : "http://inspire.jrc.ec.europa.eu/documents/Metadata/INSPIRE_MD_IR_and_ISO_v1_2_20100616.pdf",
+                           "functionCode" : null
+                        }
+                     ],
+                     "DateOfPublication" : [
+                        "2010-06-16"
+                     ]
+                  }
+               }
+            ],
+            "SourceValidationError" : [
+               {
+                  "ValidationSchema" : [],
+                  "GeoportalExceptionMessage" : [
+                     {
+                        "Argument" : [
+                           {
+                              "ArgumentValue" : "In content of element <MD_Metadata>: The content model does not allow element <something_else> to appear immediately after element <Q{.../gmd}dataQualityInfo>. The following elements would be valid here, all in namespace http://www.isotc211.org/2005/gmd: featureAttribute, applicationSchemaInfo, series, dataQualityInfo, propertyType, featureType, metadataMaintenance, portrayalCatalogueInfo, metadataConstraints, describes (or nothing). ",
+                              "ArgumentName" : "Error Message"
+                           },
+                           {
+                              "ArgumentValue" : "20",
+                              "ArgumentName" : "Column Number"
+                           },
+                           {
+                              "ArgumentValue" : "299",
+                              "ArgumentName" : "Line Number"
+                           }
+                        ],
+                        "Message" : "In content of element <MD_Metadata>: The content model does not allow element <something_else> to appear immediately after element <Q{.../gmd}dataQualityInfo>. The following elements would be valid here, all in namespace http://www.isotc211.org/2005/gmd: featureAttribute, applicationSchemaInfo, series, dataQualityInfo, propertyType, featureType, metadataMaintenance, portrayalCatalogueInfo, metadataConstraints, describes (or nothing).  at column 20, line 299",
+                        "ExceptionCode" : "error.geoportal.discovery.metadata.xmlvalidation",
+                        "GeoportalErrorCode" : "ERROR_GEOPORTAL_DISCOVERY_METADATA_XMLVALIDATION",
+                        "EA_GUID" : "D927CFAB-AC5B-471b-91C0-36C42597C731"
+                     }
+                  ],
+                  "SourceOfRequirement" : [],
+                  "SourceMetadataLocator" : {
+                     "expectedResourceLocatorProtocol" : null,
+                     "lastUpdatedBy" : null,
+                     "creationDate" : null,
+                     "childHasErrors" : null,
+                     "remoteIdentifier" : null,
+                     "completenessIndicator" : null,
+                     "functionCodeList" : null,
+                     "originalEncodingReference" : null,
+                     "lastUpdateDate" : null,
+                     "MediaType" : [
+                        "APPLICATION_VND_ISO_19139_XML"
+                     ],
+                     "createdBy" : null,
+                     "URL" : "../../../downloaded.xml",
+                     "functionCode" : null
+                  }
+               }
+            ]
+         },
+         "InspireValidationErrors" : {
+            "ValidationError" : [
+               {
+                  "GeoportalExceptionMessage" : [
+                     {
+                        "EA_GUID" : "D927CFAB-AC5B-471b-91C0-36C42597C731",
+                        "GeoportalErrorCode" : "ERROR_GEOPORTAL_DISCOVERY_METADATA_XMLVALIDATION",
+                        "Message" : "The source document is not valid. Please see the 'Schema Validation Issues' section above at column &1, line &2",
+                        "ExceptionCode" : "error.geoportal.discovery.metadata.xmlvalidation",
+                        "Argument" : [
+                           {
+                              "ArgumentValue" : "The source document is not valid. Please see the 'Schema Validation Issues' section above",
+                              "ArgumentName" : "Error Message"
+                           }
+                        ]
+                     }
+                  ],
+                  "SourceOfRequirement" : [
+                     {
+                        "Specification" : {
+                           "Title" : "D2.8.I.5 Data Specification on Addresses – Technical Guidelines (Version 3.1)",
+                           "URI" : [
+                              "D2.8.I.5_v3.1"
+                           ],
+                           "ResourceLocator" : [
+                              {
+                                 "expectedResourceLocatorProtocol" : null,
+                                 "lastUpdatedBy" : null,
+                                 "creationDate" : null,
+                                 "childHasErrors" : null,
+                                 "remoteIdentifier" : null,
+                                 "completenessIndicator" : null,
+                                 "originalEncodingReference" : null,
+                                 "functionCodeList" : null,
+                                 "lastUpdateDate" : null,
+                                 "MediaType" : [
+                                    "APPLICATION_XML"
+                                 ],
+                                 "createdBy" : null,
+                                 "URL" : "http://inspire.jrc.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_AD_v3.1.pdf",
+                                 "functionCode" : null
+                              }
+                           ],
+                           "DateOfPublication" : [
+                              "2014-04-17"
+                           ]
+                        },
+                        "IntraDocumentLocator" : [
+                           {
+                              "Description" : "TG Requirement 3"
+                           }
+                        ]
+                     },
+                     {
+                        "IntraDocumentLocator" : [
+                           {
+                              "Description" : "EN ISO 19115"
+                           }
+                        ],
+                        "Specification" : {
+                           "DateOfPublication" : [
+                              "2010-12-08"
+                           ],
+                           "ResourceLocator" : [
+                              {
+                                 "MediaType" : [
+                                    "APPLICATION_PDF"
+                                 ],
+                                 "createdBy" : null,
+                                 "functionCode" : null,
+                                 "URL" : "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2010:323:0011:0102:EN:PDF",
+                                 "completenessIndicator" : null,
+                                 "functionCodeList" : null,
+                                 "originalEncodingReference" : null,
+                                 "lastUpdateDate" : null,
+                                 "remoteIdentifier" : null,
+                                 "expectedResourceLocatorProtocol" : null,
+                                 "lastUpdatedBy" : null,
+                                 "creationDate" : null,
+                                 "childHasErrors" : null
+                              }
+                           ],
+                           "URI" : [
+                              "OJ:L:2010:323:0011:0102:EN:PDF"
+                           ],
+                           "Title" : "COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services"
+                        }
+                     }
+                  ]
+               }
+            ]
+         }
+      },
+      "ValidationEngineVersion" : "hudson-INSPIREWebServices-1210",
+      "GeoportalErrorCode" : [],
+      "GeoportalWarningCode" : [],
+      "CompletenessIndicator" : 94.4444444444444,
+      "processingComplete" : null,
+      "RelatedResourceLocator" : [
+         {
+            "MediaType" : [
+               "APPLICATION_VND_EU_EUROPA_EC_INSPIRE_GEOPORTAL_RESOURCE_DATASET_XML"
+            ],
+            "createdBy" : null,
+            "URL" : "..",
+            "functionCode" : null,
+            "completenessIndicator" : null,
+            "LinkDescription" : [
+               {
+                  "metadataLanguage" : "GRE",
+                  "value" : "Εθνικό Δίκτυο Παρακολούθησης της κατάστασης των υδάτων – Σταθμοί στις λίμνες (Ειδική Γραμματεία Υδάτων)"
+               }
+            ],
+            "originalEncodingReference" : null,
+            "functionCodeList" : null,
+            "lastUpdateDate" : null,
+            "remoteIdentifier" : null,
+            "expectedResourceLocatorProtocol" : null,
+            "lastUpdatedBy" : null,
+            "creationDate" : null,
+            "childHasErrors" : null
+         }
+      ],
+      "AuditRecord" : {
+         "CreationDate" : 1447197736878,
+         "LastUpdateDate" : 1447197736978
+      },
+      "SourceMetadataLocator" : {
+         "childHasErrors" : null,
+         "creationDate" : null,
+         "lastUpdatedBy" : null,
+         "expectedResourceLocatorProtocol" : null,
+         "remoteIdentifier" : null,
+         "lastUpdateDate" : null,
+         "functionCodeList" : null,
+         "originalEncodingReference" : null,
+         "completenessIndicator" : null,
+         "URL" : "../../../downloaded.xml",
+         "functionCode" : null,
+         "createdBy" : null,
+         "MediaType" : [
+            "APPLICATION_VND_ISO_19139_XML"
+         ]
+      },
+      "GeoportalMetadataLocator" : {
+         "creationDate" : null,
+         "childHasErrors" : null,
+         "lastUpdatedBy" : null,
+         "expectedResourceLocatorProtocol" : null,
+         "remoteIdentifier" : null,
+         "lastUpdateDate" : null,
+         "originalEncodingReference" : null,
+         "functionCodeList" : null,
+         "completenessIndicator" : null,
+         "functionCode" : null,
+         "URL" : "/sandbox/INSPIRE-e1b41be4-8801-11e5-a300-a0369f4c5bc0_20151111-002216/datasets/1/resourceReport",
+         "FileName" : "inspire.geoportal.resource.xml",
+         "createdBy" : null,
+         "MediaType" : [
+            "APPLICATION_VND_EU_EUROPA_EC_INSPIRE_RESOURCE_XML"
+         ]
+      }
+   },
+   "scope" : "javax.xml.bind.JAXBElement$GlobalScope",
+   "nil" : false
+}
