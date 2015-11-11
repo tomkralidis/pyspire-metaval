@@ -61,6 +61,11 @@ def validate_inspire_metadata(metadata):
     elif 'PullBatchReportResource' in json_data['value']:
         success = False
         LOGGER.error('Validation failed')
+    elif 'PullBatchReportResource' in json_data['value']:
+        msg = ('Summary validation report of multiple resources',
+               'not yet implemented')
+        LOGGER.error(msg)
+        raise NotImplementedError(msg)
     else:
         success = True
         LOGGER.info('Validation passed')
