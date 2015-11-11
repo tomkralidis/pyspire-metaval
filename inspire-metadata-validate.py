@@ -58,6 +58,9 @@ def validate_inspire_metadata(metadata):
     if 'ResourceReportResource' in json_data['value']:
         success = False
         LOGGER.error('Validation failed')
+    elif 'PullBatchReportResource' in json_data['value']:
+        success = False
+        LOGGER.error('Validation failed')
     else:
         success = True
         LOGGER.info('Validation passed')
