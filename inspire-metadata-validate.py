@@ -25,15 +25,13 @@ def validate_inspire_metadata(metadata):
     report = response.info().getheader('Location')
 
     json_data = json.loads(response.read())
-    completeness_indicator = json_data['value']['CompletenessIndicator']
-    LOGGER.info('Completeness Indicator %r', completeness_indicator)
 
-    if completeness_indicator == 100:
-        success = True
-        LOGGER.info('Validation passed')
-    else:
+    if 'ResourceReportResource' in json_data['value']:
         success = False
         LOGGER.error('Validation failed')
+    else:
+        success = True
+        LOGGER.info('Validation passed')
 
     return {
         'success': success,
